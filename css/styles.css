@@ -1,0 +1,66 @@
+body {
+    background-image: url('../img/ffondo.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+    background-position: center; /* Centra la imagen en el fondo */
+    color: white;
+}
+.encabezado {
+    margin-top: 100px;
+    max-height: 500px;
+}
+
+.perfil {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: 500px; /* Mantiene la proporción de la imagen */
+    display: block;  /* Elimina el pequeño espacio inferior debajo de la imagen */
+    
+}
+
+.cover-perfil {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 300px; /* Fija una altura para el contenedor */
+    object-fit: cover; /* La imagen cubrirá todo el contenedor, recortando si es necesario */
+}
+img.perfil {
+    padding-left: 75px;
+    
+}
+
+h1 {
+    margin: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-link {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.image-link img {
+    max-width: 100% ;width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+    
+}
+
+.image-link img:hover {
+    transform: scale(1.1);
+}
+
+.image-link p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
