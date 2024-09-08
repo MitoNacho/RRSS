@@ -64,3 +64,14 @@ h1 {
     font-size: 1.2em;
 }
 
+.image-title {
+    display: inline-block;
+    text-align: center;
+}
+
+.image-title img {
+    max-width: 100% ;width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
